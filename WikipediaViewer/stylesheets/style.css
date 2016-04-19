@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Palanquin+Dark);
+@import url(https://fonts.googleapis.com/css?family=Catamaran);
+body {
+  background-image:url('http://goo.gl/C7xDRi');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#input {
+  text-align:center;
+  margin-top:160px;
+}
+
+
+.box {
+  text-align: center;
+  background-color: rgba(255, 255, 255,0.5);
+  margin-bottom: 15px;
+  border-radius: 15px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.box:hover {
+  box-shadow: 10px 10px 10px black;
+  transition: all 0.5s;
+}
+
+a {
+  text-decoration: none;
+  color: #4682B4;
+}
+
+a:hover {
+  text-decoration:none;
+  color: #4682B4;
+}
+li {
+  list-style-type: none;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 20px;
+}
+
+p:first-child{
+  font-size: 30px;
+  margin-bottom:0px;
+}
+
+#random {
+  margin-top:10px;
+  margin-bottom:20px;
+}
+
+img {
+  position:relative;
+  top:140px;
+  left:42%;
+
+}
+
+#sarah {
+  text-align:center;
+  font-size:15px;
+  font-family: 'Catamaran', sans-serif;
+}
